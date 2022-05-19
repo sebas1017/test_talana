@@ -1,18 +1,22 @@
-# Chocobo's Sanctuary
+#Desarrollo de prueba
 
-Welcome to the park Chocobo's Sanctuary, where these majestic birds wander freely!
+ejecutar tests:
 
-As a developer we've entrusted you help us building our armored jeeps booking platform, with bird protections. It has been almost completely developed by an ex member of our team, who have had an accident... a bit unfortunate with one of the specimens of our park.
+docker-compose run --rm test
 
-What he has told us is that the software was "almost" done and that any developer that knew TDD could finish it.
+al ejecutar el comando se ejecutaran los tests que fallaban y terminaran  correctamente
 
-## Your mission is:
+en este proyecto lleve a cabo ajustes en los archivos:
+             
+             /adventure/tests
+             /adventure/views.py
+             /adventure/usecases.py
+             /adventure/models.py
+             /adventure/serializers.py
+             /adventure/urls.py
+             /docker-compose.yml
 
-- Clone this project
-- Disable the unit tests marked as `@pytest.mark.skip`
-- Build the functionalities needed for the app to pass all the tests executing `docker-compose run --rm test`
-- There's code that's been written way too fast and it probably doesn't meet our clean architecture, could you refactor it?
-- Send us your repository link
+
 
 ## Requirements
 
@@ -20,8 +24,10 @@ What he has told us is that the software was "almost" done and that any develope
 - docker-compose
 
 ## Start the project
-
+ si se desea ejecutar el proyecto utilizar el comando
 `docker-compose up`
+
+y en los logs se evidencia que tambien los tests se ejecutan correctamente
 
 ### Swagger
 
